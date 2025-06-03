@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-12-28 20:21:27 by Eclipse SUMO netedit Version 1.21.0
+-->
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- VTypes -->
+    <vType id="DEFAULT_VEHTYPE" vClass="trailer" color="0,128,0"/>
+    <vType id="DEFAULT_CONTAINERTYPE" vClass="passenger" color="255,0,0"/>
+    
+    <!-- Routes -->
+    <route id="E8_to_E6" edges="E8 E6"/>
+    <route id="E5_to_E6_via_E3" edges="E5 E3 E6"/>
+    <route id="J8_to_J9" edges="E5 E3 E6"/>
+    <route id="high_density_route" edges="E5 E3 E6"/> <!-- Example high-density route -->
+
+    <!-- Vehicles and Flows -->
+    <flow id="f_1" type="DEFAULT_CONTAINERTYPE" begin="0.00" color="red" from="E8" to="E6" end="100.00" number="18000"/>
+    <flow id="f_2" type="DEFAULT_CONTAINERTYPE" begin="0.00" color="0,47,255" from="E5" to="E6" via="E3" end="100.00" number="18000"/>
+    <flow id="f_0" begin="0.00" color="0,128,0" fromJunction="J8" toJunction="J9" end="100.00" number="100"/>
+</routes>
+
