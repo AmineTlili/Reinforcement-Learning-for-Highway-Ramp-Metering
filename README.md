@@ -69,12 +69,5 @@ Ramp metering is critical for reducing congestion and emissions on highways. Tra
 - 📈 Cumulative reward curve shows successful agent learning
 - 📊 Visuals: Action distributions, traffic variations, and reward progression plots
 
----
-
-## ⚠️ Challenges Faced
-
-- RL complexity and hyperparameter tuning
-- SUMO integration with TraCI and TensorFlow
-- Realistic traffic simulation calibration
 
 
