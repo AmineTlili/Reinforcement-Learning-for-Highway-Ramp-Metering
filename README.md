@@ -7,9 +7,6 @@
 
 This project applies **Deep Q-Learning (DQN)** to optimize traffic light control for highway ramps. Built with **SUMO** (Simulation of Urban MObility) and Python, the system adapts in real-time to traffic conditions, minimizing vehicle wait times and maximizing flow efficiency.
 
-
-This project applies **Deep Q-Learning (DQN)** to optimize traffic light control for highway ramps. Built with **SUMO** (Simulation of Urban MObility) and Python, the system adapts in real-time to traffic conditions, minimizing vehicle wait times and maximizing flow efficiency.
-
 ---
 
 ## 🧠 Problem Statement
